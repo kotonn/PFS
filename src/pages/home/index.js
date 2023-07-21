@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
-import Typewriter from "typewriter-effect";
 import { introdata, meta } from "../../content_option";
 import { Link } from "react-router-dom";
 
@@ -40,18 +39,7 @@ export const Home = () => {
                   data-aos-duration="800"
                   data-aos-delay="800"
                 >
-                  <Typewriter
-                    options={{
-                      strings: [
-                        introdata.animated.first,
-                        introdata.animated.second,
-                      ],
-                      autoStart: true,
-                      loop: true,
-                      deleteSpeed: 10,
-                      wrapperClassName: "type_writer_text"
-                    }}
-                  />
+                  音楽を通して身近な人と繋がれる音楽SNS
                 </h3>
                 <p
                   className="intro_bg_description"
