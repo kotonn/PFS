@@ -11,7 +11,7 @@ import AnimatedCursor from "../hooks/AnimatedCursor";
 import "./App.css";
 import Aos from 'aos'
 import 'aos/dist/aos.css'
-import { Bars } from 'react-loader-spinner'
+import { BallTriangle } from 'react-loader-spinner'
 import ReactGA from "react-ga4";
 
 function _ScrollToTop(props) {
@@ -47,11 +47,12 @@ export default function App() {
   if (loading) {
     return (
       <div className={`loader ${fadeOut ? 'fade-out' : ''}`}>
-        <Bars
-          height="50"
-          width="50"
-          color="#ff914d"
-          ariaLabel="bars-loading"
+        <BallTriangle
+          height={50}
+          width={50}
+          radius={5}
+          color="#181011"
+          ariaLabel="ball-triangle-loading"
           wrapperClass="loader_spinner"
           visible={true}
         />

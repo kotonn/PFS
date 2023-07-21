@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import {
-  FaInstagram,
+  FaTwitter,
 } from "react-icons/fa";
 import { socialprofils } from "../../content_option";
 
@@ -16,8 +16,8 @@ export const Socialicons = (params) => {
       <ul>
         {socialprofils.instagram && (
           <li>
-            <a href="https://instagram.com/putone_official">
-              <FaInstagram />
+            <a href="https://twitter.com/miyamogram">
+              <FaTwitter />
             </a>
           </li>
         )}

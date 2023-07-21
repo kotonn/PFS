@@ -11,13 +11,13 @@
 
 
 [data-theme="dark"] {
-    --bg-color: #0c0c0c;
-    --primary-color: #0c0c0c;
+    --bg-color: #181011;
+    --primary-color: #181011;
     --secondary-color: #fff;
     --text-color: #fff;
     --text-color-2: #fff;
     --text-color-3: rgb(204, 0, 0);
-    --overlay-color: rgb(12 12 12 / 90%);
+    --overlay-color: #181011;
 }
 
 

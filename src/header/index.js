@@ -16,16 +16,7 @@ const Headermain = () => {
   return (
     <>
       <header className="fixed-top site__header">
-        <div className="d-flex align-items-center justify-content-between">
-          <Link
-            className="navbar-brand nav_ac"
-            to="/"
-            data-aos="fade-up"
-            data-aos-duration="800"
-            data-aos-delay="800"
-          >
-            {logotext}
-          </Link>
+        <div className="d-flex align-items-center justify-content-end">
           <div className="d-flex align-items-center">
             <Themetoggle />
             <button
@@ -49,20 +40,20 @@ const Headermain = () => {
                     <Link onClick={handleToggle} to="/">ホーム</Link>
                   </li>
                   <li className="menu_item">
-                    <Link onClick={handleToggle} to="/usage">使い方</Link>
+                    <Link onClick={handleToggle} to="/usage">プロダクト一覧</Link>
                   </li>
-                  <li className="menu_item">
+                  {/* <li className="menu_item">
                     <Link onClick={handleToggle} to="/subscription">事前登録</Link>
-                  </li>
+                  </li> */}
                   <li className="menu_item">
-                    <Link onClick={handleToggle} to="/contact">お問い合わせ</Link>
+                    <Link onClick={handleToggle} to="/contact">コンタクト</Link>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
           <div className="menu_footer d-flex flex-column flex-md-row justify-content-between align-items-md-center position-absolute w-100 p-3">
-            <p className="copyright m-0">© 2023 PuTone All right reserved.</p>
+            <p className="copyright m-0">ご閲覧頂きありがとうございます。</p>
           </div>
         </div>
       </header>

@@ -21,7 +21,7 @@ export const Usage = () => {
               data-aos-duration="800"
               data-aos-delay="800"
             >
-              どうやって使うの？
+              プロダクト
             </h1>{" "}
             <hr
               className="t_border my-4 ml-0 text-left"
@@ -45,6 +45,7 @@ export const Usage = () => {
                 <div className="content">
                   <h4 className="po_item_style-title">{data.title}</h4>
                   <p className="po_item_style-description">{data.description}</p>
+                  <a href={data.link} className="po_item_style-description">サイトに行く</a>
                 </div>
               </div>
             );
