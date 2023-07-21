@@ -53,7 +53,7 @@ export const Home = () => {
                   data-aos-duration="800"
                   data-aos-delay="800"
                 >
-                  音楽を通して身近な人と繋がれる音楽SNS
+                  ビジネスエンジニア
                 </h3>
 
                 <p
@@ -62,7 +62,12 @@ export const Home = () => {
                   data-aos-duration="800"
                   data-aos-delay="800"
                 >
-                  {introdata.background_description}
+                  氏名：宮本和輝<br />
+                  生年月日：2001年6月17日<br />
+                  出身地：大阪府<br />
+                  大学：完成学院大学<br />
+                  学部：国際学部<br />
+                  卒業予定年度：2025年度<br />
                 </p>
                 <p
                   className="intro_r_description"
@@ -70,15 +75,8 @@ export const Home = () => {
                   data-aos-duration="800"
                   data-aos-delay="800"
                 >
-                  {introdata.reason_description}
-                </p>
-                <p
-                  className="intro_one_description"
-                  data-aos="fade-right"
-                  data-aos-duration="800"
-                  data-aos-delay="800"
-                >
-                  {introdata.one_description}
+                  ビジネスエンジニアとは、ビジネス × エンジニア としての視点を併せ持ち、抽象化と具体化を繰り返し、言語化してビジネスに従事する人材であると定義づけています。
+                  ビジネスエンジニアであることで、ビジネスというモノに対する解像度を高めることをMissionとします。
                 </p>
                 <div
                   className="intro_btn-container intro_btn-action pb-3"
@@ -88,7 +86,7 @@ export const Home = () => {
                 >
                   <Link to="/usage" className="text_2">
                     <div id="button_p" className="ac_btn btn ">
-                      使い方
+                      プロダクト
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
@@ -96,7 +94,7 @@ export const Home = () => {
                   </Link>
                   <Link to="/subscription">
                     <div id="button_h" className="ac_btn btn">
-                      事前登録
+                      コンタクト
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>

@@ -1,12 +1,12 @@
 :root {
-    --bg-color: #f8ce94;
+    --bg-color: #e4e4da;
     --bg-secondary-color: #ffb800;
-    --primary-color: #f8ce94;
+    --primary-color: #e4e4da;
     --secondary-color: #0c0c0c;
     --text-color: #0c0c0c;
     --text-color-2: #0c0c0c;
     --text-color-3: rgb(204, 0, 0);
-    --overlay-color: #f8ce94;
+    --overlay-color: #e4e4da;
 }
 
 
